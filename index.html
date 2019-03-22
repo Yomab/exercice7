@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8"/>
+<html lang "EN">
+<title>"Mon premier formulaire"</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form method="post" action="traitement.php">
+<fieldset class="Identity">
+ <legend class="Identity">Identity</legend>
+ <label for="name">1. Name : </label>
+ <input type="text" name="name" id="name"/><br/>
+ <label for="surname">2. Surname : </label>
+ <input type="text" name="surname" id="surname"/><br/>
+ <label for="mail address">3. Mail address : </label>
+ <input type="text" name="mail address" id="mail address"/><br/>
+</fieldset>
+<fieldset class="address">
+ <legend class="address">address delivery</legend>
+ <label for="address">1. Address : </label>
+ <textarea name="Address" id="Address"></textarea><br />
+ <label for="zip code">2. Zip code : </label>
+ <input type="text" name="zip code" id="zip code"/><br/>
+ <label for="town">3. Town : </label>
+ <input type="text" name="town" id="town"/><br/>
+</fieldset>
+<fieldset class="payment">
+  <legend class="payment">payment information</legend>
+  <p>
+  1. type of credit card :<br />
+  <input type="radio" name="card" value="VISA" id="VISA" /> <label for="VISA"> VISA card </label><br />
+  <input type="radio" name="card" value="Mastercard" id="Mastercard" /> <label for="Mastercard"> Mastercard card </label><br />
+  </p>
+  <label for="cart number">2. Cart number : </label>
+  <input type="text" name="cart number" id="cart number"/><br/>
+  <label for="security code">3. Security code : </label>
+  <input type="text" name="security code" id="security code"/><br/>
+  <label for="cardholder name">4. Cardholder : </label>
+  <input type="text" name="card>holder name" id="cardholder name"/><br/>
+</fieldset>
+<input type="submit" value="Buy" />
+
+
+
+</body>
+</html>

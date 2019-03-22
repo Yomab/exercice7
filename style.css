@@ -1,0 +1,19 @@
+.Identity{
+background: #2574a9;
+}
+
+.address {
+  background: #9a12b3;
+}
+
+.payment {
+  background: #db0a5b;
+}
+
+#VISA {
+  margin-left: 65px;
+}
+
+#Mastercard {
+   margin-left: 65px;
+ }
